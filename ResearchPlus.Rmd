@@ -58,13 +58,13 @@ Listen up, young padawans
 \end{block}
 
 
-## Use Google Scholar
+## Use Google Scholar for more than searching
 
 \placefig{0}{1.33}{width=12.8cm, height=13cm}{gsfront}
 
 \only<2>{\placefig{.6}{1.2}{width=2cm}{select}}
 
-## Use Google Scholar
+## Use Google Scholar for more than searching
 
 \placefig{0}{1.33}{width=12.8cm, height=13cm}{gscholar}
 
@@ -80,7 +80,7 @@ Listen up, young padawans
 \end{textblock}}
 
 
-## Use Google Scholar
+## Use Google Scholar for more than searching
 
 \placefig{0}{1.33}{width=12.8cm, height=13cm}{oddstream}
 
@@ -94,19 +94,19 @@ Listen up, young padawans
 \end{textblock}}
 
 
-## Use Google Scholar
+## Use Google Scholar for more than searching
 
 \placefig{0}{1.33}{width=12.8cm, height=13cm}{gsfront}
 
 \only<2>{\placefig{2.2}{1.2}{width=2cm}{select}}
 
 
-## Use Google Scholar
+## Use Google Scholar for more than searching
 
 \placefig{0}{1.33}{width=12.8cm, height=13cm}{gslibrary}
 
 
-## Use Google Scholar
+## Use Google Scholar for more than searching
 \placefig{0}{1.33}{width=12.8cm, height=13cm}{gsfront}
 
 
