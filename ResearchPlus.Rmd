@@ -13,6 +13,8 @@ header-includes:
   - \usepackage{MonashWhite,soul}
   - \usepackage[lf,t]{carlito}
   - \graphicspath{{figs/}}
+  - \usepackage[scale=0.85]{sourcecodepro}
+  - \DisableLigatures{encoding = T1, family = tt*}
 ---
 
 ```{r setup1, include=FALSE}
@@ -20,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, cache=TRUE,
   dev.args=list(bg=grey(0.9), pointsize=11))
 ```
 
-##Alternative titles
+## Alternative titles
 
 ###
 There's more to being a researcher than writing a thesis\pause
@@ -53,8 +55,7 @@ Listen up, young padawans
 \begin{block}{}
 \texttt{\textasciigrave{}\textasciigrave{}\textasciigrave{}\{r\ setup,\ include=FALSE\}}\newline
 \texttt{knitr::opts\_chunk\$set(echo=FALSE)\ writeLines(capture.output(sessionInfo()),}\newline
-\texttt{\hspace*{1cm}   "sessionInfo.txt")}\newline
-\texttt{\textasciigrave{}\textasciigrave{}\textasciigrave{}}
+\texttt{\hspace*{1cm}   "sessionInfo.txt")}
 \end{block}
 
 
@@ -71,7 +72,7 @@ Listen up, young padawans
 
 \only<2>{\begin{textblock}{7.7}(2,5)
 \begin{block}{}
-\begin{itemize}
+\begin{itemize}\tightlist
 \item Set up a GS profile.
 \item Keep your GS profile up to date.
 \item Follow key authors.
@@ -86,7 +87,7 @@ Listen up, young padawans
 
 \only<2>{\begin{textblock}{8.7}(3.2,2.4)
 \begin{block}{}
-\begin{itemize}
+\begin{itemize}\tightlist
 \item Link GS to your reference manager.
 \item Keep everything you are ever likely to cite in your reference manager.
 \end{itemize}
@@ -118,7 +119,7 @@ Listen up, young padawans
 \placefig{6.7}{0.}{width=6.2cm}{pileofbooks}\vspace*{0.6cm}
 
 \begin{textblock}{6.5}(0,1.5)
-\begin{itemize}
+\begin{itemize}\tightlist
 \item Cite what is important.
 \item Cite (only) what is relevant.
 \item  Cite papers from the journal you intend to submit to.
@@ -138,7 +139,7 @@ citation("packagename")
 
 \placefig{7.4}{5.4}{width=5.4cm}{bibliography}\vspace*{0.6cm}\vspace*{-0.4cm}
 \begin{textblock}{12}(0.2,1.3)
-\begin{itemize}
+\begin{itemize}\tightlist
 \item Every article cited should be sighted, \& preferably \rlap{read.}
  \item  At the very least, check that the article cited really does say what you think it says.
  \item  Type the reference information yourself.
@@ -147,18 +148,17 @@ citation("packagename")
  \item  Give credit where it is due.
 
  \only<2>{
-   \begin{itemize}
+   \begin{itemize}\tightlist
    \item Diebold did not invent PITs.
-   \item Hyndman did not invent\newline exponential smoothing or ARIMA models.
+   \item Hyndman did not invent\newline exponential smoothing\newline or ARIMA models.
    \end{itemize}}
 \end{itemize}
 \end{textblock}
 
 ## Names and titles
-\fontsize{14}{16}\sf
+\fontsize{14}{15}\sf
 
- * Your name is your brand. Choose one and stick to it.\pause
-
+ * Your name is your brand. Choose one and stick to \rlap{it.}\pause
  * Titles should be informative, short and catchy (in that order).\pause
 
     - Optimal forecast reconciliation for hierarchical and grouped time series through trace minimization
@@ -204,7 +204,7 @@ citation("packagename")
 ## Excuses
 \placefig{6.8}{0}{width=6.3cm, height=9.6cm}{htwal}
 \begin{textblock}{6.5}(0,1.4)
-\begin{itemize}
+\begin{itemize}\tightlist
 \item There's not enough time
 \item I need to read more articles before I begin
 \item I need a new computer, a better printer, etc.
@@ -216,7 +216,7 @@ citation("packagename")
 ## How to write a lot
 \placefig{6.8}{0}{width=6.3cm, height=9.6cm}{htwal}
 \begin{textblock}{6.5}(0,1.4)
-\begin{itemize}
+\begin{itemize}\tightlist
 \item Block out a regular writing time (e.g., 2 hours every morning).
 \item Write something every day.
 \item Set a word or paragraph goal for each session.
@@ -302,7 +302,7 @@ citation("packagename")
 \fontsize{13}{14.5}\sf
 
 \begin{block}{Unacceptable inclusions of authorship}
-\begin{itemize}\parskip=0cm\itemsep=0cm
+\begin{itemize}\tightlist
 \item Being head of department, holding other positions of authority, or personal friendship with the authors;
 \item Providing a routine technical contribution;
 \item Providing routine assistance in some aspects of the project;
@@ -323,7 +323,7 @@ Acknowledge everyone who helped but is not an author.
 
 \placefig{0}{1.35}{width=8cm,height=9.5cm}{ajm}
 \begin{textblock}{4.9}(7.7,1.5)\fontsize{12}{14}\sf
-\begin{itemize}
+\begin{itemize}\tightlist
 \item Beware of academic phishing!
  \item Consider journals of papers you cite.
  \item  Check impact factors and journal rankings.

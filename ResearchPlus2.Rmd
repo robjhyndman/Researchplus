@@ -1,0 +1,219 @@
+---
+title: "The journal game"
+author: "Rob J Hyndman"
+date: "25 September 2018"
+fontsize: 14pt
+output:
+  beamer_presentation:
+    fig_height: 5
+    fig_width: 8
+    highlight: tango
+    theme: metropolis
+header-includes:
+  - \usepackage{MonashWhite,soul}
+  - \usepackage[lf,t]{carlito}
+  - \graphicspath{{figs/}}
+  - \usepackage[scale=0.85]{sourcecodepro}
+  - \DisableLigatures{encoding = T1, family = tt*}
+---
+
+```{r setup1, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, cache=TRUE,
+  dev.args=list(bg=grey(0.9), pointsize=11))
+```
+
+
+# Authors
+
+## Who should be listed as an author?
+
+\fontsize{13}{15}\sf
+
+### Monash authorship policy
+
+… in all cases authorship must be based on making a substantial intellectual contribution to the work described and taking sole or joint responsibility for that contribution or, where appropriate, the work as a whole. Accordingly, authorship must be based upon a substantial contribution and responsibility for at least one, and usually more than one, of the following activities:
+
+ * Conception and design of the project;
+ * Analysis and interpretation of research data;
+ * Drafting significant parts of the work or critically revising it so as to contribute to the interpretation.
+
+## Who should be listed as an author?
+
+\fontsize{13}{14.5}\sf
+
+\begin{block}{Unacceptable inclusions of authorship}
+\begin{itemize}\tightlist
+\item Being head of department, holding other positions of authority, or personal friendship with the authors;
+\item Providing a routine technical contribution;
+\item Providing routine assistance in some aspects of the project;
+\item Acquisition of funding;
+\item General supervision of the research team;
+\item Providing data that has already been published or materials obtained from third parties (including the routine collation and provision of research source material).
+\end{itemize}
+\end{block}
+\pause
+
+\begin{alertblock}{}
+Acknowledge everyone who helped but is not an author.
+\end{alertblock}
+
+## Who should be listed as an author?
+
+ * Discuss authorship early
+ * In statistics: order of authors is usually in order of contribution. This is not true in all fields.
+ * For PhD students, you will need to allocate a percentage contribution to each author of any papers when you submit.
+
+# Journals
+
+## Finding the right journal
+
+\placefig{0}{1.35}{width=8cm,height=9.5cm}{ajm}
+\begin{textblock}{4.9}(7.7,1.5)\fontsize{12}{14}\sf
+\begin{itemize}\tightlist
+\item Beware of academic phishing!
+ \item Consider journals of papers you cite.
+ \item Is your work heavily an extension of an earlier paper?
+ \item  Check impact factors and journal rankings.
+ \item  Aim as high as possible, but be realistic.
+ \item Sometimes you might trade high ranking for fast response.
+ \end{itemize}
+\end{textblock}
+
+## How do journals work?
+
+\placefig{6.4}{1.35}{width=8cm,height=8.25cm}{Journal_Flowchart}
+
+\begin{textblock}{5.4}(0.5,1.6)
+\begin{block}{}
+Editor-in-Chief
+
+Editors
+
+Associate Editors
+
+Reviewers
+\end{block}\vspace*{.8cm}
+
+\only<2>{\begin{alertblock}{Possible outcomes}
+\begin{enumerate}
+\item Accept
+\item Revise and resubmit
+\item Reject and resubmit
+\item Reject
+\end{enumerate}
+\end{alertblock}}
+
+\end{textblock}
+
+
+## Submitting to journals
+
+ * Don't be too fussed about journal styles. Most journals are much more lenient than the guide to authors suggests.
+ * Use biblatex which makes it easy to change bibliographic styles if necessary.
+ * Don't bother with long cover letters.
+ * Don't grovel.
+ * Check the submission when requested.
+
+## An IJF rejection letter
+
+###
+Thank you for this submission, but as it consists entirely of the IJF author guidelines, it is not suitable for publication in the IJF. We publish original research, not author guidelines. Perhaps the *Journal for Guidelines* would be an appropriate outlet.\parskip=1.4ex
+
+In future, when you are asked to check the pdf of your paper, you might find it useful to actually do so, rather than just claim to have done so. That way, you will avoid this kind of mistake.
+
+## Common reasons for rejection at the IJF
+
+ * Sending it to the wrong journal.
+ * Poor literature review
+ * No new ideas
+ * Limited empirical evaluation
+ * Outrageous claims
+
+# Reviewers
+
+## Dealing with reviewer reports
+
+ * Put the reviews aside for a couple of days until you calm down.
+ * Poor reviews indicate poor editors.
+ * The best journals have the best reviewers.
+ * If the reviewers misunderstood your paper, then it is not explained clearly enough.
+ * Unless you strongly disagree, do what the reviewers have requested.
+ * Make the changes, even if the paper has been rejected and you are sending it to a new journal.
+
+## Writing responses to reviewer reports
+\fontsize{14}{16}\sf
+
+If the journal allows a resubmission, you need to write a response to the reviewers.\vspace*{10cm}
+
+\placefig{1.4}{3}{width=9cm}{responses}
+
+## Writing responses to reviewer reports
+\fontsize{14}{16}\sf
+
+If the journal allows a resubmission, you need to write a response to the reviewers.
+
+\fontsize{12}{13}\sf
+
+###
+ * No grovelling
+ * Cut and paste reviewer comments into response, then add your own comments beneath in a different colour/font.
+ * Give page/paragraph numbers for all changes.
+ * Respond to *all* the points with a simple but specific explanation of what you have done.
+ * If you strongly disagree, you need to persuade the editor  (not the reviewer) of your perspective.
+ * Exception: bad editors sometimes act as rubber stamps for reviewers.
+ * Keep your response as short as possible. Respect the editor's time.
+
+## Becoming a reviewer
+
+\placefig{6}{0}{width=6.8cm}{highlighter}
+
+\begin{textblock}{6}(0.3,1.4)
+\begin{enumerate}
+\item Write good articles
+\item Get them published
+\end{enumerate}
+\end{textblock}\vspace*{3cm}
+
+\pause
+
+### Why review?
+
+* You learn a lot.
+* You get better known by the research leaders in your area.
+* You get to see the latest research before everyone else.
+* The scholarly publishing system depends on it.
+
+## Writing a good review
+
+\fontsize{12}{13}\sf
+
+1. What is the paper about?
+2. What is the gap that it is trying to solve?
+3. How does it address the gap? Do the methods/theory work, check what is promised
+4. What sort of application is discussed? Is it contemporary, and interesting data problem, or data pulled from another paper, and a bit tired?
+5. How well does the title/abstract describe the main contributions of the paper?
+6. Is the introduction readable? If you have trouble understanding the problem from the intro there will be many other readers in the same situation
+7. Is the solution original? Are there other published papers on the same problem? Have they been cited appropriately? Are they missing major existing work?
+
+## Writing a good review
+
+1. Provide a general summary of the paper and its contribution.
+2. Describe the major problems that need addressing.
+3. List minor corrections required.
+
+###
+* Do not include a recommendation about whether to publish in the report itself.
+* Be the reviewer you would like to have.
+
+# What is the point?
+
+## Why do we do research?
+
+\begin{alertblock}{}
+The purpose of academic research is to improve the world. It is a privilege and a special treat to be funded to conduct research.\parskip=1.4ex
+
+It is hard to measure what improves the world, so observables are measured as substitutes. But getting too hung up in these metrics is a disservice to society, and publishing for its own sake shouldn't be a goal.
+
+\rightline{\it Di Cook}
+\end{alertblock}
+
