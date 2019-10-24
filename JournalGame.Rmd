@@ -1,0 +1,290 @@
+---
+title: "The journal game"
+author: "Rob J Hyndman"
+date: "29 October 2019"
+fontsize: 14pt
+toc: true
+output:
+  binb::monash:
+    fig_height: 5
+    fig_width: 8
+header-includes:
+  - \graphicspath{{figs/}}
+  - \def\full#1{\placefig{0}{1.4}{width=12.8cm, height=8.3cm, keepaspectratio=true}{#1}}
+---
+
+## My experience
+
+ * Author of $\approx120$ journal papers.
+ * Reviewer for at least 50 different journals.
+ * Handled 600+ papers per year as an editor.
+ * Theory & Methods Editor, *Australian and New Zealand Journal of Statistics*, 2001--2004
+ * Associate Editor, *International Journal of Forecasting*, 2003--2004, 2019--
+ * Editor-in-Chief, *International Journal of Forecasting*, 2005--2018
+ * Editor, *Journal of Statistical Software*, 2011--
+
+# Authors
+
+## Who should be listed as an author?
+
+\fontsize{13}{15}\sf
+
+### Monash authorship policy
+
+… in all cases authorship must be based on making a substantial intellectual contribution to the work described and taking sole or joint responsibility for that contribution or, where appropriate, the work as a whole. Accordingly, authorship must be based upon a substantial contribution and responsibility for at least one, and usually more than one, of the following activities:
+
+ * Conception and design of the project;
+ * Analysis and interpretation of research data;
+ * Drafting significant parts of the work or critically revising it so as to contribute to the interpretation.
+
+## Who should be listed as an author?
+
+\fontsize{13}{14.5}\sf
+
+\begin{block}{Unacceptable inclusions of authorship}
+\begin{itemize}\tightlist
+\item Being head of department, holding other positions of authority, or personal friendship with the authors;
+\item Providing a routine technical contribution;
+\item Providing routine assistance in some aspects of the project;
+\item Acquisition of funding;
+\item General supervision of the research team;
+\item Providing data that has already been published or materials obtained from third parties (including the routine collation and provision of research source material).
+\end{itemize}
+\end{block}
+\pause
+
+\begin{alertblock}{}
+Acknowledge everyone who helped but is not an author.
+\end{alertblock}
+
+## Who should be listed as an author?
+
+ * Discuss authorship early
+ * PhD students will need to allocate a percentage contribution to each author of any papers when they submit their thesis.
+
+\vspace*{1cm}\pause
+
+### Order of authors
+
+ * In statistics and econometrics: order of authors is usually in order of contribution. This is not true in all fields.
+ * In some fields, last place is a position of honour.
+
+## Order of authors
+
+\full{authorship_brownie}
+\only<2->{\placefig{6}{1.4}{width=6.5cm}{authorship_rps}}
+\only<3->{\placefig{6}{5.2}{width=6.5cm}{authorship_euro}}
+\only<4->{\placefig{1}{2.4}{width=6.5cm}{authorship_tenure}}
+\only<5->{\placefig{1}{1.4}{height=8.3cm}{authorship_backgammon}}
+\only<6->{\placefig{5}{-0.2}{height=9.8cm}{authorship_croquet}}
+
+# Journals
+
+## Finding the right journal
+
+\placefig{0}{1.35}{width=8cm,height=9.5cm}{ajm}
+\begin{textblock}{4.9}(7.7,1.5)\fontsize{12}{14}\sf
+\begin{itemize}\tightlist
+\item Beware of academic phishing!
+ \item Consider journals of papers you cite.
+ \item Is your work heavily an extension of an earlier paper?
+ \item  Check impact factors and journal rankings.
+ \item  Aim as high as possible, but be realistic.
+ \item Sometimes you might trade high ranking for fast response.
+ \end{itemize}
+\end{textblock}
+
+## Journal rankings
+
+ * A proxy for quality of paper
+ * ABDC rankings
+ * ERA 2010 rankings
+ * Scimago rankings
+ * Other countries
+
+## How do journals work?
+
+\placefig{4.7}{1.35}{width=8cm,height=8.25cm}{Journal_Flowchart}
+
+\begin{textblock}{3.7}(0.3,1.3)\fontsize{14}{15}\sf
+\begin{block}{}
+Editor-in-Chief
+
+Editors
+
+Associate Editors
+
+Reviewers
+\end{block}
+\end{textblock}
+
+\only<2>{
+\begin{textblock}{4.7}(0.3, 4.0)
+  \begin{alertblock}{Possible outcomes}\small
+  \begin{enumerate}\tightlist
+  \item Accept
+  \item Revise and resubmit
+  \item Reject and resubmit
+  \item Reject
+  \end{enumerate}
+  \end{alertblock}
+\end{textblock}}
+
+
+
+## Submitting to journals
+
+ * Don't be too fussed about journal styles. Most journals are much more lenient than the guide to authors suggests.
+ * Use biblatex which makes it easy to change bibliographic styles if necessary.
+ * Don't bother with long cover letters.
+ * Don't grovel.
+ * Check the submission when requested.
+
+## An IJF rejection letter
+
+###
+Thank you for this submission, but as it consists entirely of the IJF author guidelines, it is not suitable for publication in the IJF. We publish original research, not author guidelines. Perhaps the *Journal for Guidelines* would be an appropriate outlet.\parskip=1.4ex
+
+In future, when you are asked to check the pdf of your paper, you might find it useful to actually do so, rather than just claim to have done so. That way, you will avoid this kind of mistake.
+
+## Common reasons for rejection at the IJF
+
+\begin{block}{}
+As IJF Editor-in-Chief, I received over 600 papers per year and desk-rejected about 20--30\% of them.
+\end{block}
+
+ * Sending it to the wrong journal.
+ * Poor literature review
+ * No new ideas
+ * Limited empirical evaluation
+ * Outrageous claims
+
+## Things that annoy me as an editor
+\fontsize{15}{17}\sf
+
+ * Careless referencing, missing references, gratuitous references
+ * An abstract that doesn't convey the main idea
+ * An intro or literature review that assumes the reader knows nothing/everything.
+ * Bad graphics
+ * Bad English
+
+## Open access and fees
+
+* **Gold:** published article open access.
+* **Green:** pre-print open-access (e.g., RePEc or \rlap{arXiv).}
+
+\pause
+
+\begin{block}{Fee models}
+\begin{itemize}\tightlist
+\item No fees for authors or readers
+\item Fees for readers but not authors
+\item Fees for authors but not readers
+\item Fees for authors and readers
+\end{itemize}
+\end{block}
+
+\pause
+
+\begin{alertblock}{}
+\begin{itemize}\tightlist
+\item When the fee is optional, you need to fund it from your own grants.
+\item When the fee is mandatory, the department will usually fund it for a Group 1 or Group 1+ journal.
+\end{itemize}
+\end{alertblock}
+
+# Reviewers
+
+## Dealing with reviewer reports
+
+ * Put the reviews aside for a couple of days until you calm down.
+ * Poor reviews indicate poor editors.
+ * The best journals have the best reviewers.
+ * If the reviewers misunderstood your paper, then it is not explained clearly enough.
+ * Unless you strongly disagree, do what the reviewers have requested.
+ * Make the changes, even if the paper has been rejected and you are sending it to a new journal.
+
+## Writing responses to reviewer reports
+\fontsize{14}{16}\sf
+
+If the journal allows a resubmission, you need to write a response to the reviewers.\vspace*{10cm}
+
+\placefig{1.4}{3}{width=9cm}{responses}
+
+## Writing responses to reviewer reports
+\fontsize{14}{16}\sf
+
+If the journal allows a resubmission, you need to write a response to the reviewers.
+
+\fontsize{12}{13}\sf
+
+###
+ * No grovelling
+ * Cut and paste reviewer comments into response, then add your own comments beneath in a different colour/font.
+ * Give page/paragraph numbers for all changes.
+ * Respond to *all* the points with a simple but specific explanation of what you have done.
+ * If you strongly disagree, you need to persuade the editor  (not the reviewer) of your perspective.
+ * Exception: bad editors sometimes act as rubber stamps for reviewers.
+ * Keep your response as short as possible. Respect the editor's time.
+
+## Becoming a reviewer
+
+\placefig{6}{0}{width=6.8cm}{highlighter}
+
+\begin{textblock}{6}(0.3,1.4)
+\begin{enumerate}
+\item Write good articles
+\item Get them published
+\end{enumerate}
+\end{textblock}\vspace*{3cm}
+
+\pause
+
+### Why review?
+
+* You learn a lot.
+* You get better known by the research leaders in your area.
+* You get to see the latest research before everyone else.
+* The scholarly publishing system depends on it.
+
+## Writing a good review
+
+\fontsize{12}{13}\sf
+
+1. What is the paper about?
+2. What is the gap that it is trying to solve?
+3. How does it address the gap? Do the methods/theory work, check what is promised
+4. What sort of application is discussed? Is it contemporary, and interesting data problem, or data pulled from another paper, and a bit tired?
+5. How well does the title/abstract describe the main contributions of the paper?
+6. Is the introduction readable? If you have trouble understanding the problem from the intro there will be many other readers in the same situation
+7. Is the solution original? Are there other published papers on the same problem? Have they been cited appropriately? Are they missing major existing work?
+
+## Writing a good review
+
+1. Provide a general summary of the paper and its contribution.
+2. Describe the major problems that need addressing.
+3. List minor corrections required.
+
+###
+* Do not include a recommendation about whether to publish in the report itself.
+* Be the reviewer you would like to have.
+
+# Editors
+
+## Becoming an (associate) editor
+\fontsize{14}{15}\sf
+
+ 1. Write good papers
+ 1. Write good reviews
+ 1. Get to know the editors 
+ 1. Wait
+
+\pause
+
+### Why be an (associate) editor
+
+* You learn a lot.
+* You get better known by the research leaders in your area.
+* You get to see the latest research before everyone else.
+* The scholarly publishing system depends on it.
+* You get to shape the field.
