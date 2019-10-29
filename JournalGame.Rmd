@@ -13,11 +13,14 @@ header-includes:
   - \def\full#1{\placefig{0}{1.4}{width=12.8cm, height=8.3cm, keepaspectratio=true}{#1}}
 ---
 
-## My experience
+## My expertise: rejection
+\fontsize{13}{15}\sf\vspace*{-0.15cm}
 
- * Author of $\approx120$ journal papers.
- * Reviewer for at least 50 different journals.
- * Handled 600+ papers per year as an editor.
+ * Author of $\approx120$ journal papers $\Rightarrow$ more rejections than anyone else here.
+ * Reviewer for at least 50 different journals. Mostly recommended rejection.
+ * Handled 600+ papers per year as an editor. Rejected most of them.\pause
+
+###
  * Theory & Methods Editor, *Australian and New Zealand Journal of Statistics*, 2001--2004
  * Associate Editor, *International Journal of Forecasting*, 2003--2004, 2019--
  * Editor-in-Chief, *International Journal of Forecasting*, 2005--2018
@@ -276,7 +279,7 @@ If the journal allows a resubmission, you need to write a response to the review
 
  1. Write good papers
  1. Write good reviews
- 1. Get to know the editors 
+ 1. Get to know the editors
  1. Wait
 
 \pause
